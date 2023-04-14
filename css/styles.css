@@ -750,6 +750,7 @@ height: 40px;
 border: 1px solid rgba(46, 47, 66, 0.4);
 border-radius: 4px;
 padding-left: 38px;
+background-color: #FCFCFC; 
 transition: border-color var(--transition-dur-and-func);
 }
 
@@ -777,6 +778,7 @@ height: 120px;
 border: 1px solid rgba(46, 47, 66, 0.4);
 border-radius: 4px;
 padding: 8px 16px;
+background-color: #FCFCFC;
 transition: border-color var(--transition-dur-and-func);
 }
 
@@ -820,6 +822,11 @@ color: #8E8F99;
 display: flex;
 align-items: center;
 margin-bottom: 24px;
+}
+
+.user-policy-link {
+line-height: 1.33;
+color: #4D5AE5;
 }
 
 .modal-form-submit {
